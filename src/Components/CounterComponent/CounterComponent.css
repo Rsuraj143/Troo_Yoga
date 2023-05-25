@@ -1,0 +1,70 @@
+.counter_img {
+  background: #27293e;
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+.counter_box:hover .counter_img::after {
+  border: 1px dashed #89a155;
+}
+.counter-count {
+  display: inline;
+  font-size: 24px;
+  color: #27293e;
+  line-height: 1.2;
+  font-family: "Syne", sans-serif;
+}
+.count-up {
+  padding-top: 14px;
+  text-align: center;
+}
+.counter_title {
+  padding-top: 7px;
+}
+.counter_outer {
+  padding-bottom: 90px;
+}
+.counter {
+  background: #ffffff;
+  box-shadow: 0px 4px 35px rgb(0 0 0 / 5%);
+  border-radius: 5px;
+  max-width: 1300px;
+  width: 100%;
+  padding: 50px 102px 38px 102px;
+}
+.counter_box:hover .counter_img:hover {
+  background: #89a155;
+}
+.counter_img::after {
+  content: "";
+  border: 1px dashed #27293e;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.counter_box::after {
+  content: "";
+  background: #89a155;
+  opacity: 0.5;
+  width: 100px;
+  height: 1px;
+  position: absolute;
+  top: 65px;
+  right: -66px;
+  transform: rotate(89deg);
+}
+.counter_box {
+  position: relative;
+  transition: all 0.3s ease;
+}

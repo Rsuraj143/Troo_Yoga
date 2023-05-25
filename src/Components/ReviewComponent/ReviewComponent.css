@@ -1,0 +1,98 @@
+.client_review_wrapper {
+  background: #f3f6ee;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.client_review_wrapper .classes_workshop_title_outer {
+  max-width: 100%;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.client_review_wrapper .smal_title::before {
+  left: 34px;
+}
+.client_review_box {
+  background: #ffffff;
+  box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 10%),
+    0px 4px 6px -2px rgb(0 0 0 / 5%);
+  border-radius: 5px;
+  text-align: center;
+  padding: 57px 0px 0px 0px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin: 15px;
+}
+.client_review_bottom_part {
+  padding-top: 34px;
+}
+.client_title {
+  margin-top: -20px;
+}
+.client_title p {
+  margin-top: 9px;
+}
+.client_title h4 {
+  color: #ffffff;
+}
+.client_title p {
+  color: #fff;
+}
+.client_img img {
+  border-radius: 100%;
+}
+.client_review_bottom_part {
+  background: #27293e;
+  border-radius: 0px 0px 5px 5px;
+  padding: 0px 21px 22px 21px;
+}
+.client_review_content {
+  max-width: 371px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 91px;
+}
+.client_img {
+  position: relative;
+  top: -41px;
+}
+.client_img::after {
+  content: "";
+  background: url("../../images/quote_hover.png");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -7px;
+  right: 150px;
+}
+.client_review_box:hover .client_img::after {
+  content: "";
+  background: url("../../images/quote.png");
+}
+.client_img::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: -7px;
+  left: 135px;
+  border: 1px dashed #27293e;
+}
+.client_review_box:hover .client_review_bottom_part {
+  background: #89a155;
+}
+.client_review_box:hover .client_img::before {
+  border: 1px dashed #89a155;
+}
+.client_review_wrapper .row {
+  margin: 0 -15px !important;
+}
+.client_review_btn {
+  padding-top: 35px;
+}
+.client_review_btn button.btn.btn-primary {
+  padding: 15px 35px 14px 35px;
+}

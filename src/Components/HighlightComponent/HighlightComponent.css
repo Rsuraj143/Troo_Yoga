@@ -1,0 +1,114 @@
+.why_choose_wrapper {
+  padding-top: 111px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.why_choose_wrapper .classes_workshop_title_outer {
+  max-width: 527px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.why_choose_wrapper .smal_title.smal_mid {
+  max-width: 229px;
+}
+.why_choose_box_content p {
+  margin: 0;
+  max-width: 213px;
+  width: 100%;
+}
+.count_box {
+  padding: 0;
+  background: #27293e;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.count_box_inner h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+.why_choose_box_title {
+  padding-bottom: 46px;
+}
+.why_choose_box_title:last-child {
+  padding-bottom: 0;
+}
+.why_choose_box.two {
+  margin-left: 50px;
+}
+.why_choose_box_content {
+  width: calc(100% - 70px);
+  padding-right: 15px;
+}
+.why_choose_box_content p {
+  margin-left: auto;
+  padding-top: 7px;
+}
+.why_choose_box_content h4 {
+  text-align: end;
+}
+.why_choose_box_content.choose_cont_rept h4 {
+  text-align: left;
+}
+.why_choose_box_content.choose_cont_rept p {
+  margin-right: auto;
+  margin-left: inherit;
+}
+.why_choose_box_content.choose_cont_rept {
+  padding: 0;
+  padding-left: 15px;
+}
+.why_choose_box.one {
+  margin-right: 50px;
+}
+.count_box_inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.why_choose_bg_1 {
+  position: absolute;
+  top: 176px;
+  left: 101px;
+}
+.why_choose_bg_2 {
+  position: absolute;
+  bottom: 133px;
+  right: 113px;
+}
+.why_choose_bg_3 {
+  position: absolute;
+  top: -85px;
+  z-index: 1;
+  left: 21%;
+}
+.why_choose_box_img img {
+  z-index: 2;
+  position: relative;
+}
+.why_choose_box_img {
+  z-index: 0;
+  position: relative;
+}
+.count_box::after {
+  content: "";
+  border: 1px dashed #27293e;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+.count_box:hover::after {
+  content: "";
+  border: 1px dashed #89a155;
+}
+.count_box:hover {
+  background-color: #89a155;
+}

@@ -1,0 +1,100 @@
+.classes_workshop_wrapper {
+  background: #f3f6ee;
+  padding-top: 69px;
+  padding-bottom: 100px;
+}
+.classes_workshop_title_outer {
+  max-width: 437px;
+  width: 100%;
+  padding-bottom: 37px;
+}
+.smal_title.smal_mid {
+  max-width: 225px;
+  width: 100%;
+  margin: 0 auto;
+}
+.classes_workshop_title {
+  padding-top: 21px;
+}
+.class_workshop_detail_outer {
+  padding: 10px 0 48px 0;
+  background: #27293e;
+  border-radius: 0 0 8px 8px;
+  transition: all 0.3s ease;
+}
+.class_workshop_detail_box_title h4 {
+  color: #ffffff;
+  font-weight: 700;
+  max-width: 258px;
+  width: 100%;
+  margin: 0 auto;
+}
+.lass_workshop_detail_box_sub_1 p {
+  color: #fff;
+}
+.class_workshop_detail_box_sub_detail {
+  padding-top: 15px;
+}
+.lass_workshop_detail_box_sub_1::before {
+  content: "";
+  background: #ffffff;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 3px;
+  left: -14px;
+  border-radius: 100%;
+}
+.lass_workshop_detail_box_sub_1 {
+  position: relative;
+  padding-right: 47px;
+}
+.lass_workshop_detail_box_sub_1:last-child {
+  padding-right: 0;
+}
+.class_workshop_box {
+  max-width: 413px;
+  width: 100%;
+  margin: 15px;
+  transition: all 0.3s ease;
+}
+.classes_workshop_title span {
+  color: #89a155;
+  font-weight: 700;
+}
+.classes_workshop_wrapper .row {
+  margin: 0 -15px !important;
+}
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  justify-content: space-between;
+}
+.class_workshop_box:hover .class_workshop_detail_outer {
+  background: #89a155;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 0 0 5px 5px;
+}
+.class_workshop_detail_outer {
+  position: relative;
+}
+.class_workshop_box:hover .class_workshop_detail_outer::after {
+  content: "";
+  background: url("../../images/classes_hover_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.classes_workshop_btn {
+  padding-top: 50px;
+}

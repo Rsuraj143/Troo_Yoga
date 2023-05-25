@@ -1,0 +1,123 @@
+.hero_outer {
+  background: url("../../images/hero_img.png");
+  max-width: 1720px;
+  width: 100%;
+  height: 852px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+.troo_da_wrapper {
+  position: relative;
+  padding: 110px 0;
+  z-index: 0;
+}
+.troo_da_wrapper::before {
+  content: "";
+  background: #27293e;
+  width: 50%;
+  height: 825px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.troo_da_wrapper::after {
+  content: "";
+  background: #89a155;
+  width: 50%;
+  height: 825px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.troo_da_wrapper .container {
+  max-width: 1760px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.hero_outer {
+  position: relative;
+}
+.hero_detail {
+  padding-top: 249px;
+  padding-left: 210px;
+  max-width: 955px;
+  width: 100%;
+}
+.hero_title {
+  padding-top: 18px;
+}
+.hero_content {
+  padding-top: 18px;
+  max-width: 734px;
+  width: 100%;
+}
+.hero_btn {
+  padding-top: 29px;
+}
+.hero_title span {
+  color: #89a155;
+  font-weight: 700;
+}
+.smal_title h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  z-index: 4;
+  position: relative;
+  padding-left: 15px;
+  padding-top: 9px;
+}
+.smal_title {
+  position: relative;
+}
+.smal_title::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #89a155;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100%;
+}
+.hero_btn button.btn.btn-primary {
+  padding: 14px 19px 15px 18px;
+}
+.hero_Logo {
+  position: absolute;
+  top: -190px;
+  left: -153px;
+}
+.hero_bg_1 {
+  position: absolute;
+  top: 115px;
+  left: 0;
+  opacity: 0.1;
+}
+.hero_bg_2 {
+  position: absolute;
+  top: 455px;
+  left: 0;
+}
+.hero_bg_3 {
+  position: absolute;
+  top: 175px;
+  right: 44px;
+  z-index: 1;
+}
+.hero_bg_4 {
+  position: absolute;
+  top: 257px;
+  right: 160px;
+  z-index: 3;
+}
+.hero_bg_5 {
+  position: absolute;
+  top: 449px;
+  right: 648px;
+  z-index: 3;
+}

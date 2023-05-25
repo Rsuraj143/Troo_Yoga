@@ -1,0 +1,108 @@
+.about_our_scholl_title {
+  padding-top: 21px;
+}
+.about_our_scholl_sub_content {
+  padding-top: 21px;
+}
+.about_our_scholl_list {
+  padding-top: 40px;
+}
+.about_our_scholl_btn {
+  padding-top: 40px;
+}
+.about_our_btn_1 {
+  padding-right: 20px;
+}
+.about_our_scholl_left_side {
+  max-width: 541px;
+  width: 100%;
+}
+.about_our_scholl_title h2 {
+  font-weight: 700;
+}
+.about_our_scholl_sub_content h5 {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+ul.about_our_schol_ul li {
+  color: #27293e;
+  padding-bottom: 25px;
+  position: relative;
+  padding-left: 35px;
+}
+ul.about_our_schol_ul li::before {
+  content: "";
+  background: url("../../images/check_icon.png");
+  width: 21px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.about_our_btn_2 button.btn.btn-primary {
+  background: #89a155;
+}
+.about_our_btn_1 button.btn.btn-primary {
+  padding: 14px 19px 15px 18px;
+}
+.about_our_btn_2 button.btn.btn-primary {
+  padding: 14px 19px 15px 18px;
+}
+.about_our_btn_2 button.btn.btn-primary:hover {
+  background: transparent;
+  border: 1px solid #89a155;
+  color: #89a155;
+}
+.about_our_school {
+  padding-bottom: 140px;
+  position: relative;
+}
+.about_our_schol_bg_1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.about_our_schol_bg_2 {
+  position: absolute;
+  bottom: 112px;
+  left: 71px;
+}
+.about_our_schol_img img {
+  max-width: 638px;
+  width: 100%;
+}
+.about_our_schol_year_outer {
+  max-width: 314px;
+  width: 100%;
+  background: #27293e;
+  padding: 9px 7px 9px 10px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+.about_our_schol_year_inner h2 {
+  color: #fff;
+  font-weight: 400;
+  padding-top: 23px;
+  padding-bottom: 22px;
+}
+.about_our_schol_year_inner span {
+  font-weight: 700;
+}
+.about_our_schol_year_inner {
+  border: 1px dashed #89a155;
+  border-radius: 8px;
+  text-align: center;
+}
+.about_our_schol_img {
+  position: relative;
+}
+.coming_soon_form label {
+  padding-bottom: 16px;
+}
