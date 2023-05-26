@@ -121,3 +121,75 @@
   right: 648px;
   z-index: 3;
 }
+
+/* Banner Global */
+.breadcrumb_wrapper {
+  position: relative;
+  z-index: 0;
+  padding-top: 142px;
+  padding-bottom: 121px;
+}
+.breadcrumb_wrapper::before {
+  content: "";
+  background: #27293e;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.breadcrumb_wrapper::after {
+  content: "";
+  background: #89a155;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.breadcrumb_wrapper > .container {
+  z-index: 1;
+  position: relative;
+}
+.breadcrumb_wrapper a{
+  text-decoration: none;
+}
+li.breadcrumb-item a {
+  font-family: "Syne";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.breadcrumb-item.active {
+  font-family: "Syne";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff !important;
+}
+ol.breadcrumb {
+  justify-content: center;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #fff !important;
+  content: "\f105";
+  display: inline-block;
+  padding-right: 10px !important;
+  font-size: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.about_our_school.about_page {
+  padding-top: 102px;
+  padding-bottom: 103px;
+}
+.why_choose_wrapper.whychoose_about_pg {
+  padding-top: 0;
+}
+.breadcrumb_outer h2 {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 14px;
+}

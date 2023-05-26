@@ -1,0 +1,42 @@
+.form_wrapper.book_class_pg_form_wrapper form {
+  box-shadow: none;
+  max-width: 1300px;
+  width: 100%;
+  border: 1px solid #d4d4d8;
+}
+.form_wrapper.book_class_pg_form_wrapper form h2 {
+  padding-bottom: 78px;
+  position: relative;
+}
+.form_wrapper.book_class_pg_form_wrapper form h2::after {
+  content: "";
+  border-bottom: 3px solid #89a155;
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  bottom: 64px;
+  left: 0;
+  border-radius: 100px;
+}
+.form_wrapper.book_class_pg_form_wrapper .form-control {
+  max-width: 585px;
+}
+.form-group {
+  margin-right: 15px;
+}
+.form_wrapper.book_class_pg_form_wrapper {
+  position: relative;
+  margin-bottom: 0;
+  padding-top: 100px;
+  padding-bottom: 121px;
+}
+.book_clas_pg_img_1 {
+  position: absolute;
+  top: 143px;
+  left: 111px;
+}
+.book_clas_pg_img_2 {
+  position: absolute;
+  top: 266px;
+  right: 60px;
+}

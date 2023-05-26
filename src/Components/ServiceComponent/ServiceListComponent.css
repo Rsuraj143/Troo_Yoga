@@ -1,0 +1,45 @@
+.class_List_wrapper {
+  padding-top: 59px;
+  padding-bottom: 100px;
+  background: #f3f6ee;
+}
+.clas_list_img {
+  width: 413px;
+}
+.class_list_detail_outer {
+  width: calc(100% - 413px);
+  padding-left: 30px;
+  padding-top: 36px;
+  height: 100%;
+}
+.class_list_box {
+  background: #ffffff;
+  box-shadow: 0px 4px 35px rgb(0 0 0 / 5%);
+  border-radius: 5px;
+  padding: 0 25px 0 0;
+  margin-bottom: 30px;
+}
+.class_list_content {
+  max-width: 836px;
+  width: 100%;
+  padding-top: 63px;
+}
+.class_list_detial .lass_workshop_detail_box_sub_1 p {
+  color: #27293e;
+}
+.class_list_detial .lass_workshop_detail_box_sub_1::before {
+  background: #27293e;
+  top: 6px;
+  left: -14px;
+  border-radius: 100%;
+}
+.class_list_detial {
+  padding-top: 14px;
+}
+.class_list_detial .class_workshop_detail_box_sub_detail {
+  padding-left: 14px;
+}
+.class_list_btn button.btn.btn-primary {
+  text-transform: uppercase;
+  padding: 14px 16px 15px 17px;
+}

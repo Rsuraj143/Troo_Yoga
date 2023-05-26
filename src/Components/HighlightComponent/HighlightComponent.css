@@ -112,3 +112,8 @@
 .count_box:hover {
   background-color: #89a155;
 }
+
+/* about page */
+.about_page .why_choose_wrapper{
+  padding-top: 0;
+}

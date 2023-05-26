@@ -22,7 +22,6 @@ const Banner = () => {
           <div class="col-lg-12">
             <div class="hero_outer">
               <div class="hero_img">
-                {/* <img src="./assets/images/hero_img.png" alt="hero_img"/> */}
               </div>
               <div class="hero_detail">
                 <div class="smal_title">

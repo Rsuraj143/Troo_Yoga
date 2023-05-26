@@ -41,12 +41,17 @@ footer {
   left: 245px;
   opacity: 0.1;
 }
+footer ul{
+  padding-left: 0;
+  margin-bottom: 0;
+}
 .footer_menu_ul li a {
   color: #ffffff;
   font-family: "Syne";
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  text-decoration: none;
 }
 .footer_menu_ul li {
   margin-right: 77px;

@@ -53,7 +53,7 @@
   background-position: center;
   background-size: contain !important;
 }
-.accordion-button:focus{
+.accordion-button:focus {
   box-shadow: none !important;
 }
 .accordion-button:focus {
@@ -167,4 +167,31 @@ span.email_us {
 }
 .faq_wrapper .our_team_btn .about_our_btn_2 button.btn.btn-primary {
   padding: 14px 30px 15px 30px;
+}
+/* FAQ page */
+
+.faq_pg_wrapper .classes_workshop_title_outer {
+  width: 100%;
+  padding-bottom: 37px;
+  max-width: 553px;
+}
+.faq_pg_wrapper .smal_title::before {
+  left: 132px;
+}
+.faq_pg_wrapper .smal_title.smal_mid {
+  max-width: 100%;
+}
+.faq_pg_wrapper .accordion:first-child {
+  padding-top: 0;
+}
+.faq_pg_wrapper {
+  padding-top: 108px;
+}
+.faq_pg_wrapper .accordion {
+  width: 33.33%;
+  padding-right: 32px;
+}
+.faq_pg_box_wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }

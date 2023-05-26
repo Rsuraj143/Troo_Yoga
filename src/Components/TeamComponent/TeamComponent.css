@@ -129,12 +129,20 @@
 .hover_social_icon_box {
   margin-right: 10px;
 }
-/* .hover_social_icon_team_box {
-  padding-top: 23px;
-} */
+.team .our_team_box_wrapper.about_page_team_box {
+  margin-top: 0;
+  padding-top: 88px;
+}
 .our_special_team_wrapper .row {
   align-items: center !important;
 }
 .our_team_box:hover .our_team_img::after {
   border: 1px dashed #fff;
+}
+.our_team_box_wrapper.about_page_team_box .classes_workshop_title_outer {
+  max-width: 500px;
+}
+.our_team_box_wrapper.about_page_team_box .smal_title::before {
+  top: 3px;
+  left: 24px;
 }

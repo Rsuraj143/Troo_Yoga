@@ -1,14 +1,16 @@
 import React from "react";
 import "./Header.css";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { HeaderData } from "./HeaderData";
 import NavMenu from "./NavMenu";
 import SlideCanvas from "./SlideCanvas";
 import Logo from "../../images/Header_Logo.svg";
 import { Container } from "react-bootstrap";
 
+
 const Header = () => {
+  const navigate = useNavigate()
   return (
     <header>
       <Navbar expand="lg">
@@ -28,7 +30,7 @@ const Header = () => {
             <div class="header_btn">
               {HeaderData.slice(-1).map((e, i) => {
                 return (
-                  <button type="button" class="btn btn-primary">
+                  <button type="button" class="btn btn-primary"  key={i} onClick={() => navigate(e.path)} >
                     <span>+</span>
                     {e.title}
                   </button>

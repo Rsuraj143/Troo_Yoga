@@ -7,9 +7,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 16px;
-  line-height: 1.21;
-  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 1.21 !important;
+  font-weight: 400 !important;
   font-family: "Inter", sans-serif;
   background-color: #ffffff;
   color: #393939;
@@ -32,23 +32,23 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 36px;
-  line-height: 1.2;
+  font-size: 36px !important;
+  line-height: 1.2 !important;
 }
 h3,
 .h3 {
-  font-size: 30px;
-  line-height: 1.2;
+  font-size: 30px !important;
+  line-height: 1.2 !important;
 }
 h4,
 .h4 {
-  font-size: 24px;
-  line-height: 1.2;
+  font-size: 24px !important;
+  line-height: 1.2 !important;
 }
 h5,
 .h5 {
-  font-size: 20px;
-  line-height: 1.21;
+  font-size: 20px !important;
+  line-height: 1.21 !important;
 }
 img {
   max-width: 100%;

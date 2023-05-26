@@ -1,0 +1,99 @@
+.yoga_beginners_wrapper.blog_detail_pg .yoga_beginners_verify_outer {
+  max-width: 100%;
+}
+.yoga_beginners_wrapper.blog_detail_pg .yoga_begginer_checkList_content {
+  padding-left: 0;
+  padding-right: 33px;
+}
+.yoga_beginners_wrapper.blog_detail_pg .hover_social_icon_team_box {
+  padding-top: 33px;
+}
+.yoga_beginners_right_side_box {
+  width: calc(100% - 100px);
+  padding-left: 22px;
+}
+.yoga_beginners_right_side_box_1.two {
+  margin-top: 30px;
+}
+.yoga_begginer_name_side_box {
+  background: #ffffff;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  width: 36.33%;
+  padding: 8px;
+  text-align: center;
+  margin-right: 15px;
+}
+.yoga_beginners_wrapper.blog_detail_pg
+  .yoga_beginners_right_side_box_2_content
+  p {
+  max-width: 196px;
+  width: 100%;
+}
+.comt {
+  border-top: 1px solid #d4d4d8;
+  padding-top: 26px;
+  padding-bottom: 27px;
+  margin-top: 72px;
+}
+.comt h4 + p {
+  margin-top: 35px;
+}
+.yoga_beginners_wrapper.blog_detail_pg .form-group {
+  padding-bottom: 26px;
+}
+.yoga_beginners_wrapper.blog_detail_pg
+  .form-check-input:checked[type="checkbox"] {
+  background: #89a155 url("../../images/check.svg");
+  border: 1px solid #89a155;
+}
+.blog_inner_detail_wrapper .form-check-input[type="checkbox"] {
+  background: #fff;
+  width: 18px;
+  height: 18px;
+  border-radius: 0;
+  border: 1px solid #89a155;
+}
+.yoga_beginners_wrapper.blog_detail_pg .form-check {
+  padding-bottom: 43px;
+}
+.comt p {
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #27293e;
+}
+.yoga_beginners_wrapper.blog_detail_pg {
+  padding-bottom: 100px;
+}
+.yoga_begginer_name_side_box p {
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+.yoga_begginer_name_list.two {
+  padding-top: 16px;
+}
+.yoga_beginners_right_side_box_1.two {
+  padding: 30px 30px 36px 30px;
+}
+.yoga_beginners_left_side p {
+  margin-bottom: 0;
+}
+.yoga_beginners_left_side ul {
+  padding-left: 0;
+}
+.yoga_begginer_left_side_form_parts label {
+  padding-bottom: 16px;
+}
+label.form-check-label {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #393939;
+}
+.form-control {
+  padding: 17px 20px !important;
+}

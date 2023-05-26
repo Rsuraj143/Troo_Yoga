@@ -139,3 +139,113 @@
 .news_blogs_btn button.btn.btn-primary {
   padding: 14px 40px 14px 40px;
 }
+
+/* blog page */
+.news_blogs_wrapper.blog_pg .news_blogs_box {
+  margin: 15px 15px;
+}
+.news_blogs_wrapper.blog_pg .news_blogs_img img {
+  width: 100%;
+  min-height: 400px;
+}
+.news_blogs_wrapper.blog_pg .news_blogs_detail_box {
+  position: relative;
+}
+.news_blogs_box.blog_box:hover .news_blogs_detail_box::after {
+  content: "";
+  background: url("../../images/classes_hover_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  left: auto;
+  position: absolute;
+  top: 166px;
+  left: 30px;
+}
+.news_blogs_box.second.blog_box:hover .news_blogs_detail_box::after {
+  top: -18px;
+  left: 30px;
+}
+
+.class_List_wrapper.blog_list_pg .classes_workshop_title_outer {
+  max-width: 578px;
+  padding-bottom: 51px;
+}
+.class_List_wrapper.blog_list_pg .smal_title.smal_mid {
+  max-width: 283px;
+}
+.clas_list_img img {
+  width: 100%;
+  height: 100%;
+}
+.class_list_date {
+  position: absolute;
+  top: 20px;
+  left: 259px;
+  background: #27293e;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  max-width: 134px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+.class_List_wrapper .class_list_box {
+  position: relative;
+}
+.class_List_wrapper.blog_list_pg .class_list_box:hover .class_list_date {
+  background: #89a155;
+}
+.class_List_wrapper.blog_list_pg .class_list_box:hover .class_list_title h4 {
+  color: #89a155;
+}
+.class_List_wrapper.blog_list_pg
+  .class_list_box:hover
+  .class_list_title::after {
+  background-color: #89a155;
+}
+.class_List_wrapper.blog_list_pg
+  .class_list_box:hover
+  .class_list_detial
+  .lass_workshop_detail_box_sub_1::before {
+  background-color: #89a155;
+}
+.class_List_wrapper.blog_list_pg .class_list_box:hover button.btn.btn-primary {
+  background: #89a155;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+.class_List_wrapper.blog_list_pg .class_list_box {
+  transition: all 0.3s ease;
+}
+.class_list_title::after {
+  content: "";
+  max-width: 50px;
+  width: 100%;
+  height: 5px;
+  background: #27293e;
+  position: absolute;
+  top: 52px;
+  border-radius: 100px;
+}
+.class_list_title {
+  position: relative;
+}
+.class_list_btn {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+  justify-content: space-between;
+}
+

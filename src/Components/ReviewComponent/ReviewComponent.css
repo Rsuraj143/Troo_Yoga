@@ -96,3 +96,7 @@
 .client_review_btn button.btn.btn-primary {
   padding: 15px 35px 14px 35px;
 }
+.faq_bottom_title.text-center.faq_pg{
+  padding-top: 44px;
+  padding-bottom: 100px;
+}

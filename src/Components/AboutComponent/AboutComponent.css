@@ -106,3 +106,9 @@ ul.about_our_schol_ul li::before {
 .coming_soon_form label {
   padding-bottom: 16px;
 }
+
+/* about page */
+.about_page .about_our_school{
+  padding-top: 102px;
+  padding-bottom: 103px;
+}

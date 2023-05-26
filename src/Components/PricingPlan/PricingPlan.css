@@ -73,3 +73,7 @@
   height: 100%;
   width: 100%;
 }
+
+.quick_help_wrapper a{
+  text-decoration: none;
+}
