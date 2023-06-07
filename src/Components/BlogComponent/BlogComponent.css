@@ -40,6 +40,9 @@
   padding-bottom: 100px;
   position: relative;
 }
+.news_blogs_wrapper a {
+  text-decoration: none;
+}
 .news_blogs_bg_1 {
   position: absolute;
   bottom: 214px;
@@ -249,3 +252,185 @@
   justify-content: space-between;
 }
 
+.news_blogs_box.odd {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.news_blogs_box.odd .news_blogs_detail_box {
+  border-radius: 0px 0px 5px 5px;
+}
+.news_blogs_box.odd .news_blogs_img img {
+  border-radius: 5px 5px 0px 0px;
+}
+.news_blogs_box.odd .news_blogs_img_box {
+  top: inherit;
+  bottom: 224px;
+}
+
+@media (max-width: 1330px) {
+  .news_blogs_wrapper .row {
+    margin: 0 0px !important;
+  }
+  .news_blogs_box.second .news_blogs_img_box {
+    top: 205px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .class_list_title h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1140px) {
+  .news_blogs_img_box {
+    top: 230px;
+    right: 35px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .news_blogs_box.second .news_blogs_img_box {
+    top: 230px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .news_blogs_detail_box h5 {
+    font-size: 19px;
+  }
+  section.news_blogs_wrapper.blog_pg .news_blogs_img_box {
+    top: 243px;
+    right: 35px;
+  }
+  section.news_blogs_wrapper.blog_pg .news_blogs_box {
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .news_blogs_box.odd .news_blogs_img_box {
+    bottom: 244px;
+  }
+  .news_blogs_img_box {
+    top: 245px;
+    right: 35px;
+  }
+}
+@media (max-width: 991px) {
+  .news_blogs_box.odd .news_blogs_img_box {
+    bottom: inherit;
+    top: 30px;
+  }
+  .news_blogs_bg_1 {
+    display: none;
+  }
+  .news_blogs_bg_2 {
+    display: none;
+  }
+  .news_blogs_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .news_blogs_wrapper .smal_title::before {
+    left: 10px;
+  }
+  .news_blogs_wrapper .classes_workshop_title_outer {
+    padding-bottom: 25px;
+  }
+  .news_blogs_img img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .news_blogs_box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .news_blogs_detail_box {
+    border-radius: 0px 0px 5px 5px;
+    padding: 30px;
+  }
+  .news_blogs_img_box {
+    right: 30px;
+    top: 30px;
+  }
+  .news_blogs_box.second {
+    margin-bottom: 20px;
+  }
+  .news_blogs_box.second {
+    flex-direction: column;
+  }
+  .news_blogs_box.second .news_blogs_img_box {
+    top: 30px;
+    right: 30px;
+  }
+  .news_blogs_btn {
+    padding-top: 20px;
+  }
+  section.news_blogs_wrapper.blog_pg .smal_title::before {
+    left: 9px;
+    top: 5px;
+  }
+  section.class_List_wrapper.blog_list_pg .class_list_date {
+    position: inherit;
+    top: 0;
+    left: 0;
+  }
+  section.class_List_wrapper.blog_list_pg .clas_list_img {
+    max-width: 413px;
+    width: 100%;
+  }
+  section.class_List_wrapper.blog_list_pg .class_List_wrapper {
+    padding-bottom: 0;
+  }
+  section.yoga_beginners_wrapper.blog_detail_pg .yoga_beginners_verify_img {
+    width: 100px;
+  }
+  section.yoga_beginners_wrapper.blog_detail_pg .yoga_beginners_right_side_box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  section.news_blogs_wrapper.blog_pg .smal_title::before {
+    left: 24px;
+    top: 5px;
+  }
+}
+
+@media (max-width: 575px) {
+  section.class_List_wrapper.blog_list_pg .class_list_title::after {
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  section.class_List_wrapper.blog_list_pg .class_list_content {
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .news_blogs_detail_box {
+    padding: 15px;
+  }
+  section.class_List_wrapper.blog_list_pg .class_list_title::after {
+    top: 55px !important;
+  }
+  section.class_List_wrapper.blog_list_pg .class_list_content {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 430px) {
+  section.class_List_wrapper.blog_list_pg .class_list_detail_outer {
+    padding: 20px;
+  }
+}

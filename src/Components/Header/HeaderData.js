@@ -25,7 +25,7 @@ export const HeaderData = [
       {
         subTitle: "Classes Details",
         heading: "Yoga To Realize And Love Yourself",
-        path: "/Home/Classes/Classes Details",
+        path: "/Home/Classes/Classes_Details",
       },
     ],
   },

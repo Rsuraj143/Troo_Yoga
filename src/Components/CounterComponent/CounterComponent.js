@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./CounterComponent.css";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 
 const CounterComponent = () => {
+  const [counter, setCounter] = useState(false);
   return (
-    <section class="counter_outer">
-      <div class="container">
-        <div class="counter">
-          <div class="row">
-            <div class="col-12 col-lg-3">
-              <div class="counter_box">
-                <div class="counter_img">
+    <section className="counter_outer">
+      <div className="container">
+        <div className="counter">
+          <div className="row">
+            <div className="col-12 col-lg-3">
+              <div className="counter_box">
+                <div className="counter_img">
                   <svg
                     width="50"
                     height="50"
@@ -26,18 +29,28 @@ const CounterComponent = () => {
                     />
                   </svg>
                 </div>
-                <div class="count-up">
-                  <p class="counter-count">1260</p>
-                  <span>+</span>
+                <div className="count-up">
+                  <ScrollTrigger
+                    onEnter={() => setCounter(true)}
+                    onExit={() => setCounter(false)}
+                    className="counter-count"
+                  >
+                    {counter && (
+                      <CountUp start={800} end={1260} duration={3} delay={0} />
+                    )}
+                    <span>+</span>
+                  </ScrollTrigger>
+                  {/* <p class="counter-count">1260</p>
+                  <span>+</span> */}
                   <div class="counter_title">
                     <p>Happy Clients</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-3">
-              <div class="counter_box">
-                <div class="counter_img">
+            <div className="col-12 col-lg-3">
+              <div className="counter_box">
+                <div className="counter_img">
                   <svg
                     width="50"
                     height="50"
@@ -54,18 +67,28 @@ const CounterComponent = () => {
                     />
                   </svg>
                 </div>
-                <div class="count-up">
-                  <p class="counter-count">25</p>
-                  <span>+</span>
-                  <div class="counter_title">
+                <div className="count-up">
+                  <ScrollTrigger
+                    onEnter={() => setCounter(true)}
+                    onExit={() => setCounter(false)}
+                    className="counter-count"
+                  >
+                    {counter && (
+                      <CountUp start={0} end={25} duration={3} delay={0} />
+                    )}
+                    <span>+</span>
+                  </ScrollTrigger>
+                  {/* <p class="counter-count">25</p>
+                  <span>+</span> */}
+                  <div className="counter_title">
                     <p>Year Experience</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-3">
-              <div class="counter_box">
-                <div class="counter_img">
+            <div className="col-12 col-lg-3">
+              <div className="counter_box">
+                <div className="counter_img">
                   <svg
                     width="50"
                     height="50"
@@ -89,18 +112,28 @@ const CounterComponent = () => {
                     />
                   </svg>
                 </div>
-                <div class="count-up">
-                  <p class="counter-count">13</p>
-                  <span>+</span>
-                  <div class="counter_title">
+                <div className="count-up">
+                  <ScrollTrigger
+                    onEnter={() => setCounter(true)}
+                    onExit={() => setCounter(false)}
+                    className="counter-count"
+                  >
+                    {counter && (
+                      <CountUp start={10} end={60} duration={3} delay={0} />
+                    )}
+                    <span>+</span>
+                  </ScrollTrigger>
+                  {/* <p class="counter-count">13</p>
+                  <span>+</span> */}
+                  <div className="counter_title">
                     <p>World Wide Branches</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-3">
-              <div class="counter_box">
-                <div class="counter_img">
+            <div className="col-12 col-lg-3">
+              <div className="counter_box">
+                <div className="counter_img">
                   <svg
                     width="50"
                     height="50"
@@ -117,10 +150,20 @@ const CounterComponent = () => {
                     />
                   </svg>
                 </div>
-                <div class="count-up">
-                  <p class="counter-count">230</p>
-                  <span>+</span>
-                  <div class="counter_title">
+                <div className="count-up">
+                  <ScrollTrigger
+                    onEnter={() => setCounter(true)}
+                    onExit={() => setCounter(false)}
+                    className="counter-count"
+                  >
+                    {counter && (
+                      <CountUp start={100} end={230} duration={3} delay={0} />
+                    )}
+                    <span>+</span>
+                  </ScrollTrigger>
+                  {/* <p class="counter-count">230</p>
+                  <span>+</span> */}
+                  <div className="counter_title">
                     <p>In-house Staffs</p>
                   </div>
                 </div>

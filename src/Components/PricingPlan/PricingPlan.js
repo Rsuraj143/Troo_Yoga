@@ -2,19 +2,20 @@ import React from "react";
 import "./PricingPlan.css";
 import pricingImg from "../../images/pricing_img.png"
 import play from "../../images/Play Btn.png"
+import { Link } from "react-router-dom";
 
 const PricingPlan = () => {
   return (
-    <section class="Pricing_wrapper">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="pricing_left_side">
+    <section className="Pricing_wrapper">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-lg-6">
+            <div className="pricing_left_side">
               <img src={pricingImg} alt="pricing_img" />
-              <div class="play_btn">
+              <div className="play_btn">
                 <a
                   href="https://www.youtube.com/watch?v=Cpmw25cSYow"
-                  class="youtube"
+                  className="youtube"
                   target="_blank"
                 >
                   <img src={play} alt="play_btn" />
@@ -22,55 +23,57 @@ const PricingPlan = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="pricing_right_side">
-              <div class="our_special_team_title_outer">
-                <div class="smal_title">
+          <div className="col-lg-6">
+            <div className="pricing_right_side">
+              <div className="our_special_team_title_outer">
+                <div className="smal_title">
                   <h5>Pricing Plans</h5>
                 </div>
-                <div class="our_team_title">
+                <div className="our_team_title">
                   <h2>
                     <span>Our Pricing Plan</span>
                   </h2>
                 </div>
               </div>
-              <div class="pricing_right_side_content">
+              <div className="pricing_right_side_content">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam.
                 </p>
               </div>
-              <div class="pricing_table_outer">
-                <div class="pricing_table_box d-flex justify-content-between align-items-center">
-                  <div class="pricing_title">
+              <div className="pricing_table_outer">
+                <div className="pricing_table_box d-flex justify-content-between align-items-center">
+                  <div className="pricing_title">
                     <h5>Standard Pricing Plan</h5>
                   </div>
-                  <div class="pricing_price">
+                  <div className="pricing_price">
                     <p>$35 Per week</p>
                   </div>
                 </div>
-                <div class="pricing_table_box d-flex justify-content-between align-items-center">
-                  <div class="pricing_title">
+                <div className="pricing_table_box d-flex justify-content-between align-items-center">
+                  <div className="pricing_title">
                     <h5>Professional Pricing Plan</h5>
                   </div>
-                  <div class="pricing_price">
+                  <div className="pricing_price">
                     <p>$150 Per week</p>
                   </div>
                 </div>
-                <div class="pricing_table_box last d-flex justify-content-between align-items-center">
-                  <div class="pricing_title">
+                <div className="pricing_table_box last d-flex justify-content-between align-items-center">
+                  <div className="pricing_title">
                     <h5>Private Pricing Plan</h5>
                   </div>
-                  <div class="pricing_price">
+                  <div className="pricing_price">
                     <p>$200 Per week</p>
                   </div>
                 </div>
               </div>
-              <div class="pricing_btn">
-                <button type="button" class="btn btn-primary">
+              <div className="pricing_btn">
+                <Link to="/Home/Pricing_Table">
+                <button type="button" className="btn btn-primary">
                   <span>+</span>View Our Services
                 </button>
+                </Link>
               </div>
             </div>
           </div>

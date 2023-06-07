@@ -68,3 +68,21 @@
   position: relative;
   transition: all 0.3s ease;
 }
+
+@media (max-width: 1030px) {
+  .counter {
+    padding: 50px 80px 38px 80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .counter_box::after {
+    display: none;
+  }
+  .count-up {
+    padding-bottom: 20px;
+  }
+  .counter_outer {
+    padding-bottom: 50px;
+  }
+}

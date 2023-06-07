@@ -9,8 +9,10 @@ import CounterComponent from "../../Components/CounterComponent/CounterComponent
 import ReviewComponent from "../../Components/ReviewComponent/ReviewComponent";
 import PricingPlan from "../../Components/PricingPlan/PricingPlan";
 import ContactComponent from "../../Components/ContactComponent/ContactComponent";
+import useDocumentTitle from "../../PageTitle";
 
 const ClassDetails = () => {
+  useDocumentTitle("TRoo Yoga | Class Details")
   return (
     <div>
       <Header />

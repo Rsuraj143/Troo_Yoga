@@ -85,3 +85,78 @@ section.best_price_plane .smal_title::before {
 .best_price_box:hover button.btn.btn-primary {
   background: #89a155;
 }
+
+@media (max-width: 1330px) {
+  .best_price_plane .row {
+    margin: 0 !important;
+  }
+  .best_price_box {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1230px) {
+  .best_price_box_list {
+    padding-top: 30px;
+  }
+  br {
+    display: none;
+  }
+}
+
+@media (max-width: 1140px) {
+  .best_price_box_title p {
+    font-size: 25px;
+    line-height: 44px;
+  }
+  .best_price_box {
+    max-width: 311px;
+    margin: 15px;
+  }
+}
+@media (max-width: 1030px) {
+  .best_price_box {
+    max-width: 298px;
+  }
+}
+@media (max-width: 991px) {
+  .best_price_plane {
+    padding-top: 50px;
+  }
+  .best_price_box {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .best_price_plane .faq_bottom_title {
+    padding-bottom: 25px;
+  }
+  .best_price_plane .faq_bottom_title {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .best_price_box_list ul.about_our_schol_ul li {
+    padding-left: 0;
+  }
+  section.best_price_plane .smal_title::before {
+    left: 32px;
+  }
+  .best_price_box_title.text-center h4 + p {
+    margin-top: 8px;
+  }
+  .best_price_box_title p {
+    font-size: 22px;
+    line-height: 44px;
+  }
+  .best_price_box_title {
+    height: 103px;
+  }
+  .best_price_box_title p {
+    font-size: 20px;
+  }
+}

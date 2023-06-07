@@ -96,7 +96,70 @@
 .client_review_btn button.btn.btn-primary {
   padding: 15px 35px 14px 35px;
 }
-.faq_bottom_title.text-center.faq_pg{
+.faq_bottom_title.text-center.faq_pg {
   padding-top: 44px;
   padding-bottom: 100px;
+}
+@media (max-width: 1330px) {
+  .client_review_wrapper .row {
+    margin: 0 0px !important;
+  }
+  .client_img::before {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .client_img::after {
+    top: -7px;
+    right: 0;
+    left: 45px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1280px) {
+  .client_review_content {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .client_review_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .client_review_wrapper .smal_title::before {
+    left: 46px;
+  }
+  .client_review_wrapper .classes_workshop_title_outer {
+    padding-bottom: 25px;
+  }
+  .client_review_btn {
+    padding-top: 25px;
+  }
+  .client_review_box {
+    padding: 30px 0px 0px 0px;
+  }
+  .client_review_content {
+    margin-bottom: 70px;
+  }
+  .client_review_box {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .client_review_wrapper .smal_title::before {
+    left: 47px;
+  }
+}
+
+@media (max-width: 480px) {
+  .client_img {
+    max-width: 150px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }

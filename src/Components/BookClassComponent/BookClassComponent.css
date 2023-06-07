@@ -40,3 +40,18 @@
   top: 266px;
   right: 60px;
 }
+
+@media (max-width: 991px) {
+  .book_clas_pg_img_1 {
+    display: none;
+  }
+  .book_clas_pg_img_2 {
+    display: none;
+  }
+}
+@media(max-width:480px){
+  .form-group {
+    margin-right: 0;
+}
+}
+

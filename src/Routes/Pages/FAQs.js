@@ -5,8 +5,10 @@ import Footer from '../../Components/Footer/Footer'
 import FAQComponent2 from '../../Components/FAQComponent/FAQComponent2'
 import PricingPlan from '../../Components/PricingPlan/PricingPlan'
 import ContactComponent from '../../Components/ContactComponent/ContactComponent'
+import useDocumentTitle from '../../PageTitle'
 
 const FAQs = () => {
+  useDocumentTitle("TRoo Yoga | FAQs")
   return (
     <div>
         <Header/>

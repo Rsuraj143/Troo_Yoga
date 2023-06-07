@@ -118,3 +118,107 @@
   position: relative;
   padding-top: 99px;
 }
+
+@media (max-width: 1140px) {
+  .form_wrapper .form-control {
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .contct_form_map iframe {
+    max-width: 875px;
+    width: 100%;
+  }
+  .contct_form_map::after {
+    max-width: 890px;
+  }
+}
+@media (max-width: 991px) {
+  .quick_help_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .quick_help_title {
+    padding-bottom: 20px;
+  }
+  .quick_help_detail_box h5 {
+    text-align: center;
+  }
+  .quick_help_detail_outer.d-flex {
+    max-width: 235px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .quick_help_detail_outer {
+    padding-top: 15px;
+  }
+  .form_wrapper {
+    margin-bottom: 0;
+  }
+  .quick_help_detail_box {
+    padding-top: 15px;
+  }
+  .form_wrapper {
+    padding-top: 50px;
+  }
+  .form-row {
+    flex-direction: column;
+  }
+  .form_wrapper form {
+    padding: 30px;
+  }
+  .form_wrapper .form-control {
+    max-width: 100%;
+  }
+  .form_wrapper .form-group label {
+    padding-top: 15px;
+  }
+  .form_wrapper form h2 {
+    padding-bottom: 10px;
+  }
+  .quick_help_call_right a {
+    font-size: 17px;
+  }
+  .quick_help_call_right address {
+    font-size: 17px;
+  }
+  .form_wrapper.book_class_pg_form_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .form_wrapper.book_class_pg_form_wrapper .form-control {
+    max-width: 100%;
+  }
+  .form_wrapper.book_class_pg_form_wrapper form h2 {
+    padding-bottom: 30px;
+  }
+  .form_wrapper.book_class_pg_form_wrapper form h2::after {
+    bottom: 9px;
+  }
+  section.form_wrapper.book_class_pg_form_wrapper .form-row {
+    padding-bottom: 0;
+  }
+  section.form_wrapper.book_class_pg_form_wrapper .form_submit_btn {
+    padding-top: 25px;
+  }
+  section.form_wrapper.book_class_pg_form_wrapper .form-control {
+    max-width: 474px;
+    width: 100%;
+    padding: 8px 15px;
+  }
+  .form_wrapper.book_class_pg_form_wrapper .form-control {
+    max-width: 100% !important;
+    width: 100%;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form_wrapper form {
+    padding: 15px;
+  }
+  .form_wrapper .form-row {
+    padding-bottom: 0;
+  }
+}

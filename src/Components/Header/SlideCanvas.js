@@ -19,7 +19,7 @@ const SlideCanvas = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div class="hamburger_menu_header">
+    <div className="hamburger_menu_header">
       <Button onClick={handleShow} className="hum-btn">
         <img src={toggleMenu} alt="humburger" />
       </Button>
@@ -35,15 +35,15 @@ const SlideCanvas = () => {
             Lorem, ipsum dolor and it so sit amet consectetur adipisicing elit.
             Tempore ipsam alias and quae cupiditate quas, neque eum magni.
           </p>
-          <div class="contact_us_canvans">
+          <div className="contact_us_canvans">
             <h4>Contact Us</h4>
-            <div class="call_canvas">
+            <div className="call_canvas">
               <h5>Call</h5>
-              <div class="canvas_call_outer d-flex">
-                <div class="call_img">
+              <div className="canvas_call_outer d-flex">
+                <div className="call_img">
                   <img src={call} alt="call" />
                 </div>
-                <div class="call_canvas_detail">
+                <div className="call_canvas_detail">
                   <h5>
                     <a href="tel:+44 123 456 7890">+44 123 456 7890</a>
                   </h5>
@@ -54,13 +54,13 @@ const SlideCanvas = () => {
               </div>
             </div>
           </div>
-          <div class="call_canvas email">
+          <div className="call_canvas email">
             <h5>Email</h5>
-            <div class="canvas_call_outer d-flex">
-              <div class="call_img">
+            <div className="canvas_call_outer d-flex">
+              <div className="call_img">
                 <img src={mail} alt="Email" />
               </div>
-              <div class="call_canvas_detail">
+              <div className="call_canvas_detail">
                 <h5>
                   <a href="mailto:trooyoga@email.com">trooyoga@email.com</a>
                 </h5>
@@ -70,24 +70,24 @@ const SlideCanvas = () => {
               </div>
             </div>
           </div>
-          <div class="call_canvas email">
+          <div className="call_canvas email">
             <h5>Adress</h5>
-            <div class="canvas_call_outer d-flex">
-              <div class="call_img">
+            <div className="canvas_call_outer d-flex">
+              <div className="call_img">
                 <img src={location} alt="location_canvas" />
               </div>
-              <div class="call_canvas_detail">
-                <address class="canvas_addres">
+              <div className="call_canvas_detail">
+                <address className="canvas_addres">
                   8 Clarence Court,Geraldton, 2506, Australia
                 </address>
               </div>
             </div>
           </div>
-          <div class="contact_us_canvans social_network">
+          <div className="contact_us_canvans social_network">
             <h4>Social Network</h4>
           </div>
-          <div class="scial_network_canvas">
-            <ul class="social_network_canvas_ul d-flex">
+          <div className="scial_network_canvas">
+            <ul className="social_network_canvas_ul d-flex">
               <li>
                 <Link to="#">
                   <FaFacebookF />
@@ -112,106 +112,7 @@ const SlideCanvas = () => {
           </div>
         </Offcanvas.Body>
       </Offcanvas>
-      {/* <div
-        class="offcanvas offcanvas-end"
-        tabindex="-1"
-        id="offcanvasRight"
-        aria-labelledby="offcanvasRightLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">
-            <img src={logo} alt="Logo" />
-          </h5>
-          <button
-            type="button"
-            class="btn-close text-reset"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <h4>About Us</h4>
-          <p>
-            Lorem, ipsum dolor and it so sit amet consectetur adipisicing elit.
-            Tempore ipsam alias and quae cupiditate quas, neque eum magni.
-          </p>
-          <div class="contact_us_canvans">
-            <h4>Contact Us</h4>
-            <div class="call_canvas">
-              <h5>Call</h5>
-              <div class="canvas_call_outer d-flex">
-                <div class="call_img">
-                  <img src={call} alt="call" />
-                </div>
-                <div class="call_canvas_detail">
-                  <h5>
-                    <a href="tel:+44 123 456 7890">+44 123 456 7890</a>
-                  </h5>
-                  <h5>
-                    <a href="tel:+44 987 654 1230">+44 987 654 1230</a>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="call_canvas email">
-            <h5>Email</h5>
-            <div class="canvas_call_outer d-flex">
-              <div class="call_img">
-                <img src={mail} alt="Email" />
-              </div>
-              <div class="call_canvas_detail">
-                <h5>
-                  <a href="mailto:trooyoga@email.com">trooyoga@email.com</a>
-                </h5>
-                <h5>
-                  <a href="mailto:info@trootheme.com">info@trootheme.com</a>
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="call_canvas email">
-            <h5>Adress</h5>
-            <div class="canvas_call_outer d-flex">
-              <div class="call_img">
-                <img src={location} alt="location_canvas" />
-              </div>
-              <div class="call_canvas_detail">
-                <address class="canvas_addres">
-                  8 Clarence Court,Geraldton, 2506, Australia
-                </address>
-              </div>
-            </div>
-          </div>
-          <div class="contact_us_canvans social_network">
-            <h4>Social Network</h4>
-          </div>
-          <div class="scial_network_canvas">
-            <ul class="social_network_canvas_ul d-flex">
-              <li>
-                <Link to="#">
-                  <FaFacebookF />
-                </Link>
-              </li>
-              <li>
-                <Link to="#">
-                  <FaTwitter />
-                </Link>
-              </li>
-              <li>
-                <Link to="#">
-                  <FaInstagram />
-                </Link>
-              </li>
-              <li>
-                <Link to="#">
-                  <FaLinkedinIn />
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div> */}
+
     </div>
   );
 };

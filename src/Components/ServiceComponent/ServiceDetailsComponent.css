@@ -156,3 +156,119 @@
   padding-top: 30px;
   padding-bottom: 17px;
 }
+
+@media (max-width: 1280px) {
+  .yoga_begginer_name_list.d-flex {
+    flex-direction: column;
+  }
+  .yoga_begginer_name_side_box {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .yoga_begginer_name_list.two {
+    padding-top: 0;
+  }
+  .yoga_beginners_right_side_box_2.d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .yoga_beginners_right_side_box_2_content {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .yoga_beginners_right_side {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .yoga_begginer_content_bottom {
+    padding-top: 15px;
+  }
+  .yoga_beginners_right_side_box_1 h4::after {
+    content: "";
+    position: absolute;
+    top: 46px;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+  }
+  .yoga_beginners_wrapper {
+    padding-top: 50px;
+  }
+  .yoga_beginners_right_side_box_2 {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  .yoga_beginner_right_side_box_1_btn {
+    padding-top: 25px;
+  }
+  .coming_soon_form form {
+    max-width: 522px;
+  }
+  .yoga_beginners_verify_outer.second.d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .yoga_beginners_verify_box.d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .yoga_beginners_verify_outer.d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 20px 25px 20px;
+  }
+  .yoga_beginners_verify_outer.second {
+    margin-left: 0;
+  }
+  .yoga_beginners_right_side_box {
+    padding-top: 15px;
+  }
+  .yoga_begginer_checklist_outer.d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .yoga_begginer_checklist_img {
+    width: 100%;
+    text-align: center;
+  }
+  .yoga_begginer_checkList_content {
+    width: 100%;
+  }
+  .yoga_beginners_verify_img {
+    width: 100%;
+  }
+  .yoga_beginners_right_side_box {
+    width: 100%;
+    padding-left: 0;
+  }
+  .yoga_beginners_right_side_box_2.d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .yoga_beginners_right_side_box_2_content {
+    padding-left: 0;
+    padding-top: 16px;
+    text-align: center;
+  }
+  section.yoga_beginners_wrapper.blog_detail_pg
+    .yoga_begginer_checklist_outer
+    .about_our_scholl_list {
+    padding-top: 6px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hover_social_icon_team_box span {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, useNavigate } from "react-router-dom";
@@ -11,6 +11,12 @@ import { Container } from "react-bootstrap";
 
 const Header = () => {
   const navigate = useNavigate()
+  
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
+
+
   return (
     <header>
       <Navbar expand="lg">
@@ -27,10 +33,10 @@ const Header = () => {
                 return <NavMenu key={i} item={item} />;
               })}
             </ul>
-            <div class="header_btn">
+            <div className="header_btn">
               {HeaderData.slice(-1).map((e, i) => {
                 return (
-                  <button type="button" class="btn btn-primary"  key={i} onClick={() => navigate(e.path)} >
+                  <button type="button" className="btn btn-primary"  key={i} onClick={() => navigate(e.path)} >
                     <span>+</span>
                     {e.title}
                   </button>

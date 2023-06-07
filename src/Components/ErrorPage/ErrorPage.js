@@ -10,34 +10,34 @@ import error from "../../images/erroe.png";
 
 const ErrorPage = () => {
   return (
-    <section class="error_wrapper text-center">
-      <div class="error_bg_1">
+    <section className="error_wrapper text-center">
+      <div className="error_bg_1">
         <img src={errorBg1} alt="error_bg_1" />
       </div>
-      <div class="error_bg_2">
+      <div className="error_bg_2">
         <img src={errorBg2} alt="error_bg_1" />
       </div>
-      <div class="error_bg_3">
+      <div className="error_bg_3">
         <img src={errorBg3} alt="error_bg_1" />
       </div>
-      <div class="error_bg_4">
+      <div className="error_bg_4">
         <img src={errorBg4} alt="error_bg_1" />
       </div>
-      <div class="error_bg_5">
+      <div className="error_bg_5">
         <img src={errorBg5} alt="error_bg_1" />
       </div>
-      <div class="error_bg_6">
+      <div className="error_bg_6">
         <img src={errorBg6} alt="error_bg_1" />
       </div>
-      <div class="container">
-        <div class="error_img">
+      <div className="container">
+        <div className="error_img">
           <img src={error} alt="Error" />
         </div>
-        <div class="error_title">
+        <div className="error_title">
           <h2>Oops! That page can’t be found.</h2>
         </div>
-        <div class="error_btn">
-          <button type="button" class="btn btn-primary">
+        <div className="error_btn">
+          <button type="button" className="btn btn-primary">
             <span>+</span> GO to homepage
           </button>
         </div>

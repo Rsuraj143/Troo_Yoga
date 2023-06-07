@@ -6,16 +6,16 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const FAQComponent2 = () => {
   return (
-    <section class="faq_pg_wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="faq_pg_title_outer">
-              <div class="classes_workshop_title_outer m-auto text-center">
-                <div class="smal_title smal_mid">
+    <section className="faq_pg_wrapper">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="faq_pg_title_outer">
+              <div className="classes_workshop_title_outer m-auto text-center">
+                <div className="smal_title smal_mid">
                   <h5>Have You Question in Mind?</h5>
                 </div>
-                <div class="classes_workshop_title">
+                <div className="classes_workshop_title">
                   <h2>Frequently Asked Questions</h2>
                 </div>
               </div>
@@ -333,29 +333,29 @@ const FAQComponent2 = () => {
               </Accordion>
          
         </div>
-        <div class="faq_bottom_title text-center faq_pg">
+        <div className="faq_bottom_title text-center faq_pg">
           <h4>Did Not Find Your Answer?</h4>
-          <div class="faq_bottom_title_box d-flex justify-content-between">
-            <div class="faq_call_outer first d-flex">
-              <div class="faq_call">
+          <div className="faq_bottom_title_box d-flex justify-content-between">
+            <div className="faq_call_outer first d-flex">
+              <div className="faq_call">
                 <img src={call} alt="call" />
               </div>
-              <div class="faq_call_detail">
+              <div className="faq_call_detail">
                 <p>
-                  <a href="tel:+44 123 456 7890" class="number_faq">
-                    <span class="call_us">Call Us on</span> +44 123 456 7890
+                  <a href="tel:+44 123 456 7890" className="number_faq">
+                    <span className="call_us">Call Us on</span> +44 123 456 7890
                   </a>
                 </p>
               </div>
             </div>
-            <div class="faq_call_outer  d-flex">
-              <div class="faq_call">
+            <div className="faq_call_outer  d-flex">
+              <div className="faq_call">
               <img src={mail} alt="call" />
               </div>
-              <div class="faq_call_detail">
+              <div className="faq_call_detail">
                 <p>
                   <a href="mailto:trooyoga@email.com">
-                    <span class="email_us">Email Us on</span>trooyoga@email.com
+                    <span className="email_us">Email Us on</span>trooyoga@email.com
                   </a>
                 </p>
               </div>

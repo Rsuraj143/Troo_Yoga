@@ -19,39 +19,39 @@ import {
 const Footer = () => {
   return (
     <footer>
-      <div class="footer_bg_1">
+      <div className="footer_bg_1">
         <img src={img1} alt="Footer" />
       </div>
-      <div class="footer_bg_2">
+      <div className="footer_bg_2">
         <img src={img2} alt="Footer" />
       </div>
-      <div class="footer_bg_3">
+      <div className="footer_bg_3">
         <img src={img3} alt="Footer" />
       </div>
-      <div class="footer_bg_4">
+      <div className="footer_bg_4">
         <img src={img4} alt="Footer" />
       </div>
-      <div class="footer_bg_5">
+      <div className="footer_bg_5">
         <img src={img5} alt="Footer" />
       </div>
-      <div class="footer_bg_6">
+      <div className="footer_bg_6">
         <img src={img6} alt="Footer" />
       </div>
-      <div class="footer_bg_7">
+      <div className="footer_bg_7">
         <img src={img7} alt="Footer" />
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="footer_logo text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="footer_logo text-center">
               <img src={foterLogo} alt="footer_logo" />
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="footer_menu_box">
-              <ul class="footer_menu_ul d-flex justify-content-center">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="footer_menu_box">
+              <ul className="footer_menu_ul d-flex justify-content-center">
                 <li>
                   <Link>Home</Link>
                 </li>
@@ -59,7 +59,7 @@ const Footer = () => {
                   <Link>About Us</Link>
                 </li>
                 <li>
-                  <Link>Classes </Link>
+                  <Link>classNamees </Link>
                 </li>
                 <li>
                   <Link>Blogs</Link>
@@ -71,34 +71,34 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="footer_copyright">
+        <div className="row">
+          <div className="col-lg-5">
+            <div className="footer_copyright">
               <p>
                 © 2022 Medical Theme by <span>Troo Theme</span>. All rights
                 reserved
               </p>
             </div>
           </div>
-          <div class="col-lg-3">
-            <div class="footer_box_social_icon d-flex justify-content-center">
-              <div class="footer_social_icon_box">
+          <div className="col-lg-3">
+            <div className="footer_box_social_icon d-flex justify-content-center">
+              <div className="footer_social_icon_box">
                 <FaFacebookF />
               </div>
-              <div class="footer_social_icon_box">
+              <div className="footer_social_icon_box">
                 <FaTwitter />
               </div>
-              <div class="footer_social_icon_box">
+              <div className="footer_social_icon_box">
                 <FaInstagram />
               </div>
-              <div class="footer_social_icon_box">
+              <div className="footer_social_icon_box">
                 <FaLinkedinIn />
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="footer_policy">
+          <div className="col-lg-4">
+            <div className="footer_policy">
               <p>Privacy Policy / Terms & Conditions</p>
             </div>
           </div>

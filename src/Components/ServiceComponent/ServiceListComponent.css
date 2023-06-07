@@ -43,3 +43,60 @@
   text-transform: uppercase;
   padding: 14px 16px 15px 17px;
 }
+
+@media (max-width: 991px) {
+  .class_list_box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .class_list_detail_outer {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 36px;
+    height: 100%;
+    text-align: center;
+  }
+  .class_workshop_detail_box_sub_detail.d-flex {
+    justify-content: center;
+  }
+  .class_list_content {
+    padding-top: 50px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .class_list_detail_outer {
+    padding-top: 20px;
+  }
+  .class_list_detial {
+    padding-top: 0;
+  }
+  .class_list_btn {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+  .class_List_wrapper {
+    padding-top: 40px;
+  }
+  .class_List_wrapper .smal_title::before {
+    position: absolute;
+    top: 5px;
+    left: 4px;
+  }
+  .clas_list_img {
+    padding: 15px;
+  }
+  .class_list_box {
+    padding: 0;
+  }
+  .clas_list_img {
+    width: 100%;
+  }
+  .class_List_wrapper.blog_list_pg.mob {
+    padding-bottom: 50px;
+  }
+  .class_List_wrapper.blog_list_pg.mob .class_list_title::after {
+    top: 40px;
+  }
+}

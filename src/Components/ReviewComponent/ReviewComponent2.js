@@ -15,15 +15,15 @@ import clientReview12 from "../../images/client_reviews_img_12.png"
 
 const ReviewComponent2 = () => {
   return (
-    <section class="client_review_wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="classes_workshop_title_outer m-auto text-center">
-              <div class="smal_title smal_mid">
+    <section className="client_review_wrapper">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="classes_workshop_title_outer m-auto text-center">
+              <div className="smal_title smal_mid">
                 <h5>Clients Review</h5>
               </div>
-              <div class="classes_workshop_title">
+              <div className="classes_workshop_title">
                 <h2>
                   What Clients Say
                   <span>About Us</span>
@@ -32,10 +32,10 @@ const ReviewComponent2 = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+        <div className="row">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -43,23 +43,23 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview1}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Jasmine Hanna</h4>
                   <p>Business man, Clients</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -67,23 +67,23 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview2}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Eleanor Pena</h4>
                   <p>Business man</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -91,14 +91,14 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview3}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Meghan Mae</h4>
                   <p>Manager</p>
                 </div>
@@ -106,10 +106,10 @@ const ReviewComponent2 = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+        <div className="row">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -117,23 +117,23 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview4}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Simon Sais</h4>
                   <p>Dentist</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -141,23 +141,23 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview5}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Lynne Gwistic</h4>
                   <p>School Clerk</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -165,14 +165,14 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview6}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Isabelle Ringing Mae</h4>
                   <p>Web Developer</p>
                 </div>
@@ -180,10 +180,10 @@ const ReviewComponent2 = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+        <div className="row">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -191,23 +191,23 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview7}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Constance Noring</h4>
                   <p>Business Woman</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -215,23 +215,23 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview8}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Frank N. Stein</h4>
                   <p>MBBS Student</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -239,14 +239,14 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview9}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Peg Legge</h4>
                   <p>Manager, Clients</p>
                 </div>
@@ -254,10 +254,10 @@ const ReviewComponent2 = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+        <div className="row">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -265,23 +265,23 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview10}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Patty O’Furniture</h4>
                   <p>Business man</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -289,23 +289,23 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                     src={clientReview11}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Amber Mody</h4>
                   <p>School Teacher</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="client_review_box">
-              <div class="client_review_content">
+          <div className="col-lg-4">
+            <div className="client_review_box">
+              <div className="client_review_content">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -313,14 +313,14 @@ const ReviewComponent2 = () => {
                   printer took a galley of type and scrambled{" "}
                 </p>
               </div>
-              <div class="client_review_bottom_part">
-                <div class="client_img">
+              <div className="client_review_bottom_part">
+                <div className="client_img">
                   <img
                    src={clientReview12}
                     alt="client_img"
                   />
                 </div>
-                <div class="client_title">
+                <div className="client_title">
                   <h4>Jack Aranda</h4>
                   <p>Body Builder</p>
                 </div>

@@ -108,7 +108,78 @@ ul.about_our_schol_ul li::before {
 }
 
 /* about page */
-.about_page .about_our_school{
+.about_page .about_our_school {
   padding-top: 102px;
   padding-bottom: 103px;
+}
+
+@media (max-width: 991px) {
+  .about_our_schol_img img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .about_our_schol_bg_1 {
+    display: none;
+  }
+  .about_our_schol_bg_2 {
+    display: none;
+  }
+  .about_our_scholl_left_side {
+    padding-top: 25px;
+    max-width: 100%;
+  }
+  .about_our_scholl_title h2 {
+    text-align: center;
+  }
+  .about_our_scholl_title {
+    padding-top: 15px;
+  }
+  .about_our_scholl_sub_content {
+    padding-top: 15px;
+    text-align: center;
+  }
+  ul.about_our_schol_ul li::before {
+    position: initial;
+    display: inline-block;
+    margin-right: 13px;
+  }
+  ul.about_our_schol_ul li {
+    padding-bottom: 15px;
+    padding-left: 0;
+  }
+  .about_our_scholl_btn {
+    padding-top: 15px;
+    justify-content: center;
+  }
+  .about_our_school .row {
+    flex-direction: column-reverse;
+  }
+  .about_our_school {
+    padding-bottom: 50px;
+  }
+  .about_our_schol_img {
+    text-align: center;
+  }
+  .about_our_schol_year_inner h2 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .about_our_scholl_list {
+    padding-top: 15px;
+  }
+  .about_our_school .smal_title::before {
+    left: 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  ul.about_our_schol_ul li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .about_our_schol_year_inner h2 {
+    font-size: 18px;
+  }
 }

@@ -3,6 +3,9 @@
   padding-top: 69px;
   padding-bottom: 100px;
 }
+.classes_workshop_wrapper a {
+  text-decoration: none;
+}
 .classes_workshop_title_outer {
   max-width: 460px;
   width: 100%;
@@ -98,4 +101,90 @@
 }
 .classes_workshop_btn {
   padding-top: 50px;
+}
+
+@media (max-width: 1330px) {
+  .classes_workshop_wrapper .row {
+    margin: 0 0px !important;
+  }
+  .class_workshop_box {
+    max-width: 370px;
+    width: 100%;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .class_workshop_box {
+    max-width: 320px;
+  }
+  .class_workshop_detail_outer {
+    padding: 10px 7px 48px 19px;
+  }
+  .classes_workshop_wrapper.class_pg.Portfolio_pg
+    .class_workshop_detail_box_title
+    h4 {
+    padding-top: 13px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .class_workshop_box {
+    max-width: 300px;
+  }
+  .lass_workshop_detail_box_sub_1 p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .why_choose_wrapper.whychoose_about_pg.class_pg {
+    padding-top: 50px;
+  }
+  .classes_workshop_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .class_workshop_box {
+    max-width: 650px;
+    width: 100%;
+  }
+  .class_workshop_img img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .classes_workshop_wrapper .smal_title::before {
+    left: 0;
+    top: 6px;
+  }
+  .class_workshop_detail_outer {
+    padding: 25px 7px 48px 19px;
+  }
+  .classes_workshop_btn {
+    padding-top: 15px;
+  }
+  .classes_workshop_title {
+    padding-top: 15px;
+  }
+  .classes_workshop_title_outer {
+    max-width: 460px;
+    padding-bottom: 45px;
+  }
+  .classes_workshop_title_outer {
+    padding-bottom: 15px;
+  }
+  .classes_workshop_wrapper.class_pg.Portfolio_pg .class_workshop_detail_outer {
+    padding: 25px 30px 20px 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .classes_workshop_wrapper .smal_title::before {
+    left: 15px;
+  }
+  .why_choose_wrapper .smal_title::before {
+    left: 14px;
+  }
 }

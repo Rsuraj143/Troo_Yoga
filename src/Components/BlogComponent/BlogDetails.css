@@ -97,3 +97,48 @@ label.form-check-label {
 .form-control {
   padding: 17px 20px !important;
 }
+
+@media (max-width: 991px) {
+  .comt {
+    margin-top: 30px;
+  }
+  .yoga_beginners_wrapper.blog_detail_pg {
+    padding-bottom: 50px;
+  }
+  .yoga_beginners_wrapper.Portfolio_pg_last
+    .yoga_beginners_right_side_box_1
+    h4 {
+    text-align: center;
+  }
+  .yoga_beginners_wrapper.Portfolio_pg_last
+    .yoga_beginners_right_side_box_1
+    h4::after {
+    top: 34px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .yoga_beginners_wrapper.Portfolio_pg_last {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .comt h4 + p {
+    margin-top: 10px;
+  }
+  label.form-check-label {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 364px) {
+  .yoga_begginer_checkList_content {
+    padding-left: 0;
+  }
+  .yoga_beginners_right_side_box_2_content p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
