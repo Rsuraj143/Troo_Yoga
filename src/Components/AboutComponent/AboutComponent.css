@@ -60,6 +60,9 @@ ul.about_our_schol_ul li::before {
   padding-bottom: 140px;
   position: relative;
 }
+.about_our_school ul{
+  padding-left: 0;
+}
 .about_our_schol_bg_1 {
   position: absolute;
   top: 0;

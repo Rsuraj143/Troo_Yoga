@@ -143,6 +143,7 @@
   font-size: 18px;
   line-height: 22px;
   color: #27293e;
+  margin-bottom: 0;
 }
 .yoga_beginners_right_side_box_2_content span {
   font-family: "Inter";
@@ -186,6 +187,9 @@
   }
   .yoga_begginer_content_bottom {
     padding-top: 15px;
+  }
+  .yoga_beginners_verify_outer{
+    max-width: 100%;
   }
   .yoga_beginners_right_side_box_1 h4::after {
     content: "";

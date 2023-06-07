@@ -143,6 +143,9 @@
   .why_choose_wrapper.whychoose_about_pg.class_pg {
     padding-top: 50px;
   }
+  .class_workshop_detail_box_title h4{
+    max-width: 100%;
+  }
   .classes_workshop_wrapper {
     padding-top: 50px;
     padding-bottom: 50px;

@@ -65,6 +65,9 @@
 .faq_wrapper {
   position: relative;
 }
+.faq_wrapper h5{
+  margin-bottom: 0;
+}
 .faq_wrapper::after {
   content: "";
   background: url("../../images/faq_bg_2.png");
@@ -98,6 +101,9 @@
   margin: 0 auto;
   padding: 35px 33px 35px 33px;
   margin-top: 20px;
+}
+.faq_bottom_title_box a{
+  text-decoration: none;
 }
 .faq_call_detail a {
   font-size: 18px;

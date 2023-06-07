@@ -121,6 +121,10 @@ label.form-check-label {
   .yoga_beginners_wrapper.Portfolio_pg_last {
     padding-bottom: 50px;
   }
+  .yoga_beginners_right_side_box{
+    width: initial;
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 575px) {

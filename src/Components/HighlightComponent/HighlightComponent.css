@@ -24,6 +24,9 @@
   height: 70px;
   position: relative;
   transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .count_box_inner h2 {
   color: #fff;
@@ -68,7 +71,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 10px;
 }
 .why_choose_bg_1 {
   position: absolute;
